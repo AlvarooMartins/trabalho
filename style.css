@@ -1,0 +1,157 @@
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #1877f2;
+            color: white;
+            border-radius: 5px;
+            padding: 30px 0;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 10px 15px;
+        }
+        
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+
+        .logo a {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        /* Seção Meio */
+        .meio {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .meio p {
+            font-size: 18px;
+            margin-top: 10px;
+            color: #555;
+        }
+
+        /* Seção Busca */
+        .busca {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .busca input {
+            width: 70%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .busca button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #1877f2;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .busca button:hover {
+            background-color: #145dbf;
+        }
+
+        /* Destaques */
+       .destaques {
+        margin-top: 40px;
+    }
+    
+    .destaques h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .destaques .item {
+        display: inline-block;
+        width: 22%;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        transition: transform 0.2s, background-color 0.2s;
+        border-radius: 8px;
+    }
+    
+    .destaques .item:hover {
+        background-color: #e3f2fd;
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+    
+    .destaques .icon {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .destaques .icon a{
+        
+    }
+
+    .destaques p {
+        font-size: 18px;
+        font-weight: bold;
+        color: #555;
+    }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            margin-top: 200px;
+            padding: 10px;
+            font-size: 14px;
+            color: #666;
+        }
